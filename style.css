@@ -20,12 +20,10 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
-  .aaa { 
+@media (max-width: 768px) {
+  .aaa {
     text-align: center;
   }
-
 }
 
 .centered-main-page-element {
@@ -55,7 +53,7 @@ h3 {
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -117,7 +115,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,7 +135,7 @@ li > label {
   width: 226px;
 }
 
-li >  input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 
@@ -159,11 +156,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+ul li.editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
